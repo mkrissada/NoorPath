@@ -1,0 +1,1847 @@
+[
+  {
+    "number": 1,
+    "nameAr": "سُورَةُ ٱلْفَاتِحَةِ",
+    "nameEn": "Al-Faatiha",
+    "nameTh": "อัล-ฟาติหะฮ์",
+    "meaningTh": "การเปิด",
+    "revelationType": "Meccan",
+    "ayahCount": 7,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 1,
+    "endPage": 1,
+    "juzList": [
+      1
+    ]
+  },
+  {
+    "number": 2,
+    "nameAr": "سُورَةُ البَقَرَةِ",
+    "nameEn": "Al-Baqara",
+    "nameTh": "อัล-บะเกาะเราะฮ์",
+    "meaningTh": "วัวตัวเมีย",
+    "revelationType": "Medinan",
+    "ayahCount": 286,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 2,
+    "endPage": 49,
+    "juzList": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "number": 3,
+    "nameAr": "سُورَةُ آلِ عِمۡرَانَ",
+    "nameEn": "Aal-i-Imraan",
+    "nameTh": "อาลิ อิมรอน",
+    "meaningTh": "วงศ์วานของอิมรอน",
+    "revelationType": "Medinan",
+    "ayahCount": 200,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 50,
+    "endPage": 76,
+    "juzList": [
+      3,
+      4
+    ]
+  },
+  {
+    "number": 4,
+    "nameAr": "سُورَةُ النِّسَاءِ",
+    "nameEn": "An-Nisaa",
+    "nameTh": "อัน-นิซาอ์",
+    "meaningTh": "สตรี",
+    "revelationType": "Medinan",
+    "ayahCount": 176,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 77,
+    "endPage": 106,
+    "juzList": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "number": 5,
+    "nameAr": "سُورَةُ المَائـِدَةِ",
+    "nameEn": "Al-Maaida",
+    "nameTh": "อัล-มาอิดะฮ์",
+    "meaningTh": "สำรับอาหาร",
+    "revelationType": "Medinan",
+    "ayahCount": 120,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 106,
+    "endPage": 127,
+    "juzList": [
+      6,
+      7
+    ]
+  },
+  {
+    "number": 6,
+    "nameAr": "سُورَةُ الأَنۡعَامِ",
+    "nameEn": "Al-An'aam",
+    "nameTh": "อัล-อันอาม",
+    "meaningTh": "ปศุสัตว์",
+    "revelationType": "Meccan",
+    "ayahCount": 165,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 128,
+    "endPage": 150,
+    "juzList": [
+      7,
+      8
+    ]
+  },
+  {
+    "number": 7,
+    "nameAr": "سُورَةُ الأَعۡرَافِ",
+    "nameEn": "Al-A'raaf",
+    "nameTh": "อัล-อะอ์รอฟ",
+    "meaningTh": "ที่สูง",
+    "revelationType": "Meccan",
+    "ayahCount": 206,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 151,
+    "endPage": 176,
+    "juzList": [
+      8,
+      9
+    ]
+  },
+  {
+    "number": 8,
+    "nameAr": "سُورَةُ الأَنفَالِ",
+    "nameEn": "Al-Anfaal",
+    "nameTh": "อัล-อันฟาล",
+    "meaningTh": "ทรัพย์เชลย",
+    "revelationType": "Medinan",
+    "ayahCount": 75,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 177,
+    "endPage": 186,
+    "juzList": [
+      9,
+      10
+    ]
+  },
+  {
+    "number": 9,
+    "nameAr": "سُورَةُ التَّوۡبَةِ",
+    "nameEn": "At-Tawba",
+    "nameTh": "อัต-เตาบะฮ์",
+    "meaningTh": "การสำนึกผิดกลับเนื้อกลับตัว",
+    "revelationType": "Medinan",
+    "ayahCount": 129,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 187,
+    "endPage": 207,
+    "juzList": [
+      10,
+      11
+    ]
+  },
+  {
+    "number": 10,
+    "nameAr": "سُورَةُ يُونُسَ",
+    "nameEn": "Yunus",
+    "nameTh": "ยูนุส",
+    "meaningTh": "นบียูนุส",
+    "revelationType": "Meccan",
+    "ayahCount": 109,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 208,
+    "endPage": 221,
+    "juzList": [
+      11
+    ]
+  },
+  {
+    "number": 11,
+    "nameAr": "سُورَةُ هُودٍ",
+    "nameEn": "Hud",
+    "nameTh": "ฮูด",
+    "meaningTh": "นบีฮูด",
+    "revelationType": "Meccan",
+    "ayahCount": 123,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 221,
+    "endPage": 235,
+    "juzList": [
+      11,
+      12
+    ]
+  },
+  {
+    "number": 12,
+    "nameAr": "سُورَةُ يُوسُفَ",
+    "nameEn": "Yusuf",
+    "nameTh": "ยูซุฟ",
+    "meaningTh": "นบียูซุฟ",
+    "revelationType": "Meccan",
+    "ayahCount": 111,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 235,
+    "endPage": 248,
+    "juzList": [
+      12,
+      13
+    ]
+  },
+  {
+    "number": 13,
+    "nameAr": "سُورَةُ الرَّعۡدِ",
+    "nameEn": "Ar-Ra'd",
+    "nameTh": "อัร-เราะอ์ดุ",
+    "meaningTh": "ฟ้าร้อง",
+    "revelationType": "Medinan",
+    "ayahCount": 43,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 249,
+    "endPage": 255,
+    "juzList": [
+      13
+    ]
+  },
+  {
+    "number": 14,
+    "nameAr": "سُورَةُ إِبۡرَاهِيمَ",
+    "nameEn": "Ibrahim",
+    "nameTh": "อิบรอฮีม",
+    "meaningTh": "นบีอิบรอฮีม",
+    "revelationType": "Meccan",
+    "ayahCount": 52,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 255,
+    "endPage": 261,
+    "juzList": [
+      13
+    ]
+  },
+  {
+    "number": 15,
+    "nameAr": "سُورَةُ الحِجۡرِ",
+    "nameEn": "Al-Hijr",
+    "nameTh": "อัล-หิจญร์",
+    "meaningTh": "เมืองอัล-หิจญร์",
+    "revelationType": "Meccan",
+    "ayahCount": 99,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 262,
+    "endPage": 267,
+    "juzList": [
+      14
+    ]
+  },
+  {
+    "number": 16,
+    "nameAr": "سُورَةُ النَّحۡلِ",
+    "nameEn": "An-Nahl",
+    "nameTh": "อัน-นะหฺลุ",
+    "meaningTh": "ผึ้ง",
+    "revelationType": "Meccan",
+    "ayahCount": 128,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 267,
+    "endPage": 281,
+    "juzList": [
+      14
+    ]
+  },
+  {
+    "number": 17,
+    "nameAr": "سُورَةُ الإِسۡرَاءِ",
+    "nameEn": "Al-Israa",
+    "nameTh": "อัล-อิสรออ์",
+    "meaningTh": "การเดินทางในยามค่ำคืน",
+    "revelationType": "Meccan",
+    "ayahCount": 111,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 282,
+    "endPage": 293,
+    "juzList": [
+      15
+    ]
+  },
+  {
+    "number": 18,
+    "nameAr": "سُورَةُ الكَهۡفِ",
+    "nameEn": "Al-Kahf",
+    "nameTh": "อัล-กะฮ์ฟิ",
+    "meaningTh": "ถ้ำ",
+    "revelationType": "Meccan",
+    "ayahCount": 110,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 293,
+    "endPage": 304,
+    "juzList": [
+      15,
+      16
+    ]
+  },
+  {
+    "number": 19,
+    "nameAr": "سُورَةُ مَرۡيَمَ",
+    "nameEn": "Maryam",
+    "nameTh": "มัรยัม",
+    "meaningTh": "พระนางมัรยัม",
+    "revelationType": "Meccan",
+    "ayahCount": 98,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 305,
+    "endPage": 312,
+    "juzList": [
+      16
+    ]
+  },
+  {
+    "number": 20,
+    "nameAr": "سُورَةُ طه",
+    "nameEn": "Taa-Haa",
+    "nameTh": "ฏอฮา",
+    "meaningTh": "ฏอฮา",
+    "revelationType": "Meccan",
+    "ayahCount": 135,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 312,
+    "endPage": 321,
+    "juzList": [
+      16
+    ]
+  },
+  {
+    "number": 21,
+    "nameAr": "سُورَةُ الأَنبِيَاءِ",
+    "nameEn": "Al-Anbiyaa",
+    "nameTh": "อัล-อัมบิยาอ์",
+    "meaningTh": "บรรดานบี",
+    "revelationType": "Meccan",
+    "ayahCount": 112,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 322,
+    "endPage": 331,
+    "juzList": [
+      17
+    ]
+  },
+  {
+    "number": 22,
+    "nameAr": "سُورَةُ الحَجِّ",
+    "nameEn": "Al-Hajj",
+    "nameTh": "อัล-หัจญ์",
+    "meaningTh": "การทำหัจญ์",
+    "revelationType": "Medinan",
+    "ayahCount": 78,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 332,
+    "endPage": 341,
+    "juzList": [
+      17
+    ]
+  },
+  {
+    "number": 23,
+    "nameAr": "سُورَةُ المُؤۡمِنُونَ",
+    "nameEn": "Al-Muminoon",
+    "nameTh": "อัล-มุอ์มินูน",
+    "meaningTh": "บรรดาผู้ศรัทธา",
+    "revelationType": "Meccan",
+    "ayahCount": 118,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 342,
+    "endPage": 349,
+    "juzList": [
+      18
+    ]
+  },
+  {
+    "number": 24,
+    "nameAr": "سُورَةُ النُّورِ",
+    "nameEn": "An-Noor",
+    "nameTh": "อัน-นูร",
+    "meaningTh": "แสงสว่าง",
+    "revelationType": "Medinan",
+    "ayahCount": 64,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 350,
+    "endPage": 359,
+    "juzList": [
+      18
+    ]
+  },
+  {
+    "number": 25,
+    "nameAr": "سُورَةُ الفُرۡقَانِ",
+    "nameEn": "Al-Furqaan",
+    "nameTh": "อัล-ฟุรกอน",
+    "meaningTh": "เครื่องจำแนกความจริงและเท็จ",
+    "revelationType": "Meccan",
+    "ayahCount": 77,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 359,
+    "endPage": 366,
+    "juzList": [
+      18,
+      19
+    ]
+  },
+  {
+    "number": 26,
+    "nameAr": "سُورَةُ الشُّعَرَاءِ",
+    "nameEn": "Ash-Shu'araa",
+    "nameTh": "อัช-ชุอะรออ์",
+    "meaningTh": "บรรดากวี",
+    "revelationType": "Meccan",
+    "ayahCount": 227,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 367,
+    "endPage": 376,
+    "juzList": [
+      19
+    ]
+  },
+  {
+    "number": 27,
+    "nameAr": "سُورَةُ النَّمۡلِ",
+    "nameEn": "An-Naml",
+    "nameTh": "อัน-นัมลุ",
+    "meaningTh": "มด",
+    "revelationType": "Meccan",
+    "ayahCount": 93,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 377,
+    "endPage": 385,
+    "juzList": [
+      19,
+      20
+    ]
+  },
+  {
+    "number": 28,
+    "nameAr": "سُورَةُ القَصَصِ",
+    "nameEn": "Al-Qasas",
+    "nameTh": "อัล-เกาะศ็อศ",
+    "meaningTh": "เรื่องราว",
+    "revelationType": "Meccan",
+    "ayahCount": 88,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 385,
+    "endPage": 396,
+    "juzList": [
+      20
+    ]
+  },
+  {
+    "number": 29,
+    "nameAr": "سُورَةُ العَنكَبُوتِ",
+    "nameEn": "Al-Ankaboot",
+    "nameTh": "อัล-อังกะบูต",
+    "meaningTh": "แมงมุม",
+    "revelationType": "Meccan",
+    "ayahCount": 69,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 396,
+    "endPage": 404,
+    "juzList": [
+      20,
+      21
+    ]
+  },
+  {
+    "number": 30,
+    "nameAr": "سُورَةُ الرُّومِ",
+    "nameEn": "Ar-Room",
+    "nameTh": "อัร-รูม",
+    "meaningTh": "ชาวโรมัน",
+    "revelationType": "Meccan",
+    "ayahCount": 60,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 404,
+    "endPage": 410,
+    "juzList": [
+      21
+    ]
+  },
+  {
+    "number": 31,
+    "nameAr": "سُورَةُ لُقۡمَانَ",
+    "nameEn": "Luqman",
+    "nameTh": "ลุกมาน",
+    "meaningTh": "ท่านลุกมาน",
+    "revelationType": "Meccan",
+    "ayahCount": 34,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 411,
+    "endPage": 414,
+    "juzList": [
+      21
+    ]
+  },
+  {
+    "number": 32,
+    "nameAr": "سُورَةُ السَّجۡدَةِ",
+    "nameEn": "As-Sajda",
+    "nameTh": "อัส-ซัจญ์ดะฮ์",
+    "meaningTh": "การสุญูด",
+    "revelationType": "Meccan",
+    "ayahCount": 30,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 415,
+    "endPage": 417,
+    "juzList": [
+      21
+    ]
+  },
+  {
+    "number": 33,
+    "nameAr": "سُورَةُ الأَحۡزَابِ",
+    "nameEn": "Al-Ahzaab",
+    "nameTh": "อัล-อะหฺซาบ",
+    "meaningTh": "บรรดาพรรคพวก",
+    "revelationType": "Medinan",
+    "ayahCount": 73,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 418,
+    "endPage": 427,
+    "juzList": [
+      21,
+      22
+    ]
+  },
+  {
+    "number": 34,
+    "nameAr": "سُورَةُ سَبَإٍ",
+    "nameEn": "Saba",
+    "nameTh": "ซะบะอ์",
+    "meaningTh": "เมืองซะบะอ์",
+    "revelationType": "Meccan",
+    "ayahCount": 54,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 428,
+    "endPage": 434,
+    "juzList": [
+      22
+    ]
+  },
+  {
+    "number": 35,
+    "nameAr": "سُورَةُ فَاطِرٍ",
+    "nameEn": "Faatir",
+    "nameTh": "ฟาฏิร",
+    "meaningTh": "ผู้ทรงประดิษฐ์สร้าง",
+    "revelationType": "Meccan",
+    "ayahCount": 45,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 434,
+    "endPage": 440,
+    "juzList": [
+      22
+    ]
+  },
+  {
+    "number": 36,
+    "nameAr": "سُورَةُ يسٓ",
+    "nameEn": "Yaseen",
+    "nameTh": "ยาซีน",
+    "meaningTh": "ยาซีน",
+    "revelationType": "Meccan",
+    "ayahCount": 83,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 440,
+    "endPage": 445,
+    "juzList": [
+      22,
+      23
+    ]
+  },
+  {
+    "number": 37,
+    "nameAr": "سُورَةُ الصَّافَّاتِ",
+    "nameEn": "As-Saaffaat",
+    "nameTh": "อัศ-ศ็อฟฟาต",
+    "meaningTh": "ผู้ยืนเรียงแถว",
+    "revelationType": "Meccan",
+    "ayahCount": 182,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 446,
+    "endPage": 452,
+    "juzList": [
+      23
+    ]
+  },
+  {
+    "number": 38,
+    "nameAr": "سُورَةُ صٓ",
+    "nameEn": "Saad",
+    "nameTh": "ศ็อด",
+    "meaningTh": "อักษรศ็อด",
+    "revelationType": "Meccan",
+    "ayahCount": 88,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 453,
+    "endPage": 458,
+    "juzList": [
+      23
+    ]
+  },
+  {
+    "number": 39,
+    "nameAr": "سُورَةُ الزُّمَرِ",
+    "nameEn": "Az-Zumar",
+    "nameTh": "อัซ-ซุมัร",
+    "meaningTh": "บรรดากลุ่มชน",
+    "revelationType": "Meccan",
+    "ayahCount": 75,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 458,
+    "endPage": 467,
+    "juzList": [
+      23,
+      24
+    ]
+  },
+  {
+    "number": 40,
+    "nameAr": "سُورَةُ غَافِرٍ",
+    "nameEn": "Ghafir",
+    "nameTh": "ฆอฟิร",
+    "meaningTh": "ผู้ทรงอภัย",
+    "revelationType": "Meccan",
+    "ayahCount": 85,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 467,
+    "endPage": 476,
+    "juzList": [
+      24
+    ]
+  },
+  {
+    "number": 41,
+    "nameAr": "سُورَةُ فُصِّلَتۡ",
+    "nameEn": "Fussilat",
+    "nameTh": "ฟุศศิลัต",
+    "meaningTh": "ที่ถูกจำแนกอย่างชัดเจน",
+    "revelationType": "Meccan",
+    "ayahCount": 54,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 477,
+    "endPage": 482,
+    "juzList": [
+      24,
+      25
+    ]
+  },
+  {
+    "number": 42,
+    "nameAr": "سُورَةُ الشُّورَىٰ",
+    "nameEn": "Ash-Shura",
+    "nameTh": "อัช-ชูรอ",
+    "meaningTh": "การปรึกษาหารือ",
+    "revelationType": "Meccan",
+    "ayahCount": 53,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 483,
+    "endPage": 489,
+    "juzList": [
+      25
+    ]
+  },
+  {
+    "number": 43,
+    "nameAr": "سُورَةُ الزُّخۡرُفِ",
+    "nameEn": "Az-Zukhruf",
+    "nameTh": "อัซ-ซุครุฟ",
+    "meaningTh": "เครื่องประดับทองคำ",
+    "revelationType": "Meccan",
+    "ayahCount": 89,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 489,
+    "endPage": 495,
+    "juzList": [
+      25
+    ]
+  },
+  {
+    "number": 44,
+    "nameAr": "سُورَةُ الدُّخَانِ",
+    "nameEn": "Ad-Dukhaan",
+    "nameTh": "อัด-ดุคอน",
+    "meaningTh": "หมอกควัน",
+    "revelationType": "Meccan",
+    "ayahCount": 59,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 496,
+    "endPage": 498,
+    "juzList": [
+      25
+    ]
+  },
+  {
+    "number": 45,
+    "nameAr": "سُورَةُ الجَاثِيَةِ",
+    "nameEn": "Al-Jaathiya",
+    "nameTh": "อัล-ญาษิยะฮ์",
+    "meaningTh": "ผู้คุกเข่า",
+    "revelationType": "Meccan",
+    "ayahCount": 37,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 499,
+    "endPage": 502,
+    "juzList": [
+      25
+    ]
+  },
+  {
+    "number": 46,
+    "nameAr": "سُورَةُ الأَحۡقَافِ",
+    "nameEn": "Al-Ahqaf",
+    "nameTh": "อัล-อะหฺกอฟ",
+    "meaningTh": "เนินทราย",
+    "revelationType": "Meccan",
+    "ayahCount": 35,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 502,
+    "endPage": 506,
+    "juzList": [
+      26
+    ]
+  },
+  {
+    "number": 47,
+    "nameAr": "سُورَةُ مُحَمَّدٍ",
+    "nameEn": "Muhammad",
+    "nameTh": "มุหัมมัด",
+    "meaningTh": "นบีมุหัมมัด",
+    "revelationType": "Medinan",
+    "ayahCount": 38,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 507,
+    "endPage": 510,
+    "juzList": [
+      26
+    ]
+  },
+  {
+    "number": 48,
+    "nameAr": "سُورَةُ الفَتۡحِ",
+    "nameEn": "Al-Fath",
+    "nameTh": "อัล-ฟัตหฺ",
+    "meaningTh": "ชัยชนะ",
+    "revelationType": "Medinan",
+    "ayahCount": 29,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 511,
+    "endPage": 515,
+    "juzList": [
+      26
+    ]
+  },
+  {
+    "number": 49,
+    "nameAr": "سُورَةُ الحُجُرَاتِ",
+    "nameEn": "Al-Hujuraat",
+    "nameTh": "อัล-หุญุรอต",
+    "meaningTh": "ห้องพัก",
+    "revelationType": "Medinan",
+    "ayahCount": 18,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 515,
+    "endPage": 517,
+    "juzList": [
+      26
+    ]
+  },
+  {
+    "number": 50,
+    "nameAr": "سُورَةُ قٓ",
+    "nameEn": "Qaaf",
+    "nameTh": "กอฟ",
+    "meaningTh": "อักษรกอฟ",
+    "revelationType": "Meccan",
+    "ayahCount": 45,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 518,
+    "endPage": 520,
+    "juzList": [
+      26
+    ]
+  },
+  {
+    "number": 51,
+    "nameAr": "سُورَةُ الذَّارِيَاتِ",
+    "nameEn": "Adh-Dhaariyat",
+    "nameTh": "อัซ-ซาริยาต",
+    "meaningTh": "สิ่งที่พัดกระหน่ำ",
+    "revelationType": "Meccan",
+    "ayahCount": 60,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 520,
+    "endPage": 523,
+    "juzList": [
+      26,
+      27
+    ]
+  },
+  {
+    "number": 52,
+    "nameAr": "سُورَةُ الطُّورِ",
+    "nameEn": "At-Tur",
+    "nameTh": "อัฏ-ฏูร",
+    "meaningTh": "ภูเขาฏูร",
+    "revelationType": "Meccan",
+    "ayahCount": 49,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 523,
+    "endPage": 525,
+    "juzList": [
+      27
+    ]
+  },
+  {
+    "number": 53,
+    "nameAr": "سُورَةُ النَّجۡمِ",
+    "nameEn": "An-Najm",
+    "nameTh": "อัน-นัจญ์มุ",
+    "meaningTh": "ดวงดาว",
+    "revelationType": "Meccan",
+    "ayahCount": 62,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 526,
+    "endPage": 528,
+    "juzList": [
+      27
+    ]
+  },
+  {
+    "number": 54,
+    "nameAr": "سُورَةُ القَمَرِ",
+    "nameEn": "Al-Qamar",
+    "nameTh": "อัล-เกาะมัร",
+    "meaningTh": "ดวงจันทร์",
+    "revelationType": "Meccan",
+    "ayahCount": 55,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 528,
+    "endPage": 531,
+    "juzList": [
+      27
+    ]
+  },
+  {
+    "number": 55,
+    "nameAr": "سُورَةُ الرَّحۡمَٰن",
+    "nameEn": "Ar-Rahmaan",
+    "nameTh": "อัร-เราะหฺมาน",
+    "meaningTh": "ผู้ทรงกรุณาปรานี",
+    "revelationType": "Medinan",
+    "ayahCount": 78,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 531,
+    "endPage": 534,
+    "juzList": [
+      27
+    ]
+  },
+  {
+    "number": 56,
+    "nameAr": "سُورَةُ الوَاقِعَةِ",
+    "nameEn": "Al-Waaqia",
+    "nameTh": "อัล-วากิอะฮ์",
+    "meaningTh": "เหตุการณ์อันแน่นอน",
+    "revelationType": "Meccan",
+    "ayahCount": 96,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 534,
+    "endPage": 537,
+    "juzList": [
+      27
+    ]
+  },
+  {
+    "number": 57,
+    "nameAr": "سُورَةُ الحَدِيدِ",
+    "nameEn": "Al-Hadid",
+    "nameTh": "อัล-หะดีด",
+    "meaningTh": "เหล็ก",
+    "revelationType": "Medinan",
+    "ayahCount": 29,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 537,
+    "endPage": 541,
+    "juzList": [
+      27
+    ]
+  },
+  {
+    "number": 58,
+    "nameAr": "سُورَةُ المُجَادلَةِ",
+    "nameEn": "Al-Mujaadila",
+    "nameTh": "อัล-มุญาดะละฮ์",
+    "meaningTh": "สตรีผู้โต้เถียง",
+    "revelationType": "Medinan",
+    "ayahCount": 22,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 542,
+    "endPage": 545,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 59,
+    "nameAr": "سُورَةُ الحَشۡرِ",
+    "nameEn": "Al-Hashr",
+    "nameTh": "อัล-หัชร์",
+    "meaningTh": "การชุมนุมเนรเทศ",
+    "revelationType": "Medinan",
+    "ayahCount": 24,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 545,
+    "endPage": 548,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 60,
+    "nameAr": "سُورَةُ المُمۡتَحنَةِ",
+    "nameEn": "Al-Mumtahana",
+    "nameTh": "อัล-มุมตะหินะฮ์",
+    "meaningTh": "สตรีผู้ถูกทดสอบ",
+    "revelationType": "Medinan",
+    "ayahCount": 13,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 549,
+    "endPage": 551,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 61,
+    "nameAr": "سُورَةُ الصَّفِّ",
+    "nameEn": "As-Saff",
+    "nameTh": "อัศ-ศ็อฟ",
+    "meaningTh": "แถว",
+    "revelationType": "Medinan",
+    "ayahCount": 14,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 551,
+    "endPage": 552,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 62,
+    "nameAr": "سُورَةُ الجُمُعَةِ",
+    "nameEn": "Al-Jumu'a",
+    "nameTh": "อัล-ญุมุอะฮ์",
+    "meaningTh": "วันศุกร์",
+    "revelationType": "Medinan",
+    "ayahCount": 11,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 553,
+    "endPage": 554,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 63,
+    "nameAr": "سُورَةُ المُنَافِقُونَ",
+    "nameEn": "Al-Munaafiqoon",
+    "nameTh": "อัล-มุนาฟิกูน",
+    "meaningTh": "บรรดาผู้กลับกลอก",
+    "revelationType": "Medinan",
+    "ayahCount": 11,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 554,
+    "endPage": 555,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 64,
+    "nameAr": "سُورَةُ التَّغَابُنِ",
+    "nameEn": "At-Taghaabun",
+    "nameTh": "อัต-ตะฆอบุน",
+    "meaningTh": "วันที่เปิดเผยความขาดทุน",
+    "revelationType": "Medinan",
+    "ayahCount": 18,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 556,
+    "endPage": 557,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 65,
+    "nameAr": "سُورَةُ الطَّلَاقِ",
+    "nameEn": "At-Talaaq",
+    "nameTh": "อัฏ-เฏาะลาก",
+    "meaningTh": "การหย่าร้าง",
+    "revelationType": "Medinan",
+    "ayahCount": 12,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 558,
+    "endPage": 559,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 66,
+    "nameAr": "سُورَةُ التَّحۡرِيمِ",
+    "nameEn": "At-Tahrim",
+    "nameTh": "อัต-ตะหฺรีม",
+    "meaningTh": "การห้าม",
+    "revelationType": "Medinan",
+    "ayahCount": 12,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 560,
+    "endPage": 561,
+    "juzList": [
+      28
+    ]
+  },
+  {
+    "number": 67,
+    "nameAr": "سُورَةُ المُلۡكِ",
+    "nameEn": "Al-Mulk",
+    "nameTh": "อัล-มุลก์",
+    "meaningTh": "อำนาจการปกครอง",
+    "revelationType": "Meccan",
+    "ayahCount": 30,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 562,
+    "endPage": 564,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 68,
+    "nameAr": "سُورَةُ القَلَمِ",
+    "nameEn": "Al-Qalam",
+    "nameTh": "อัล-เกาะลัม",
+    "meaningTh": "ปากกา",
+    "revelationType": "Meccan",
+    "ayahCount": 52,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 564,
+    "endPage": 566,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 69,
+    "nameAr": "سُورَةُ الحَاقَّةِ",
+    "nameEn": "Al-Haaqqa",
+    "nameTh": "อัล-หากเกาะฮ์",
+    "meaningTh": "เหตุการณ์อันเที่ยงแท้",
+    "revelationType": "Meccan",
+    "ayahCount": 52,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 566,
+    "endPage": 568,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 70,
+    "nameAr": "سُورَةُ المَعَارِجِ",
+    "nameEn": "Al-Ma'aarij",
+    "nameTh": "อัล-มะอาริจญ์",
+    "meaningTh": "ทางขึ้นสู่เบื้องสูง",
+    "revelationType": "Meccan",
+    "ayahCount": 44,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 568,
+    "endPage": 570,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 71,
+    "nameAr": "سُورَةُ نُوحٍ",
+    "nameEn": "Nooh",
+    "nameTh": "นูหฺ",
+    "meaningTh": "นบีนูหฺ",
+    "revelationType": "Meccan",
+    "ayahCount": 28,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 570,
+    "endPage": 571,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 72,
+    "nameAr": "سُورَةُ الجِنِّ",
+    "nameEn": "Al-Jinn",
+    "nameTh": "อัล-ญิน",
+    "meaningTh": "ญิน",
+    "revelationType": "Meccan",
+    "ayahCount": 28,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 572,
+    "endPage": 573,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 73,
+    "nameAr": "سُورَةُ المُزَّمِّلِ",
+    "nameEn": "Al-Muzzammil",
+    "nameTh": "อัล-มุซซัมมิล",
+    "meaningTh": "ผู้ห่มผ้า",
+    "revelationType": "Meccan",
+    "ayahCount": 20,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 574,
+    "endPage": 575,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 74,
+    "nameAr": "سُورَةُ المُدَّثِّرِ",
+    "nameEn": "Al-Muddaththir",
+    "nameTh": "อัล-มุดดัษษิร",
+    "meaningTh": "ผู้คลุมกาย",
+    "revelationType": "Meccan",
+    "ayahCount": 56,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 575,
+    "endPage": 577,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 75,
+    "nameAr": "سُورَةُ القِيَامَةِ",
+    "nameEn": "Al-Qiyaama",
+    "nameTh": "อัล-กิยามะฮ์",
+    "meaningTh": "วันฟื้นคืนชีพ",
+    "revelationType": "Meccan",
+    "ayahCount": 40,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 577,
+    "endPage": 578,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 76,
+    "nameAr": "سُورَةُ الإِنسَانِ",
+    "nameEn": "Al-Insaan",
+    "nameTh": "อัล-อินซาน",
+    "meaningTh": "มนุษย์",
+    "revelationType": "Medinan",
+    "ayahCount": 31,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 578,
+    "endPage": 580,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 77,
+    "nameAr": "سُورَةُ المُرۡسَلَاتِ",
+    "nameEn": "Al-Mursalaat",
+    "nameTh": "อัล-มุรซะลาต",
+    "meaningTh": "สิ่งที่ถูกส่งมา",
+    "revelationType": "Meccan",
+    "ayahCount": 50,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 580,
+    "endPage": 581,
+    "juzList": [
+      29
+    ]
+  },
+  {
+    "number": 78,
+    "nameAr": "سُورَةُ النَّبَإِ",
+    "nameEn": "An-Naba",
+    "nameTh": "อัน-นะบะอ์",
+    "meaningTh": "ข่าวอันยิ่งใหญ่",
+    "revelationType": "Meccan",
+    "ayahCount": 40,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 582,
+    "endPage": 583,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 79,
+    "nameAr": "سُورَةُ النَّازِعَاتِ",
+    "nameEn": "An-Naazi'aat",
+    "nameTh": "อัน-นาซิอาต",
+    "meaningTh": "ผู้ถอดถอนวิญญาณ",
+    "revelationType": "Meccan",
+    "ayahCount": 46,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 583,
+    "endPage": 584,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 80,
+    "nameAr": "سُورَةُ عَبَسَ",
+    "nameEn": "Abasa",
+    "nameTh": "อะบะซะ",
+    "meaningTh": "เขาได้ทำหน้าบึ้ง",
+    "revelationType": "Meccan",
+    "ayahCount": 42,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 585,
+    "endPage": 586,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 81,
+    "nameAr": "سُورَةُ التَّكۡوِيرِ",
+    "nameEn": "At-Takwir",
+    "nameTh": "อัต-ตักวีร",
+    "meaningTh": "การม้วนดับ",
+    "revelationType": "Meccan",
+    "ayahCount": 29,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 586,
+    "endPage": 586,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 82,
+    "nameAr": "سُورَةُ الانفِطَارِ",
+    "nameEn": "Al-Infitaar",
+    "nameTh": "อัล-อินฟิฏอร",
+    "meaningTh": "การแตกแยก",
+    "revelationType": "Meccan",
+    "ayahCount": 19,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 587,
+    "endPage": 587,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 83,
+    "nameAr": "سُورَةُ المُطَفِّفِينَ",
+    "nameEn": "Al-Mutaffifin",
+    "nameTh": "อัล-มุฏ็อฟฟิฟีน",
+    "meaningTh": "ผู้ฉ้อโกงตาชั่ง",
+    "revelationType": "Meccan",
+    "ayahCount": 36,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 587,
+    "endPage": 589,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 84,
+    "nameAr": "سُورَةُ الانشِقَاقِ",
+    "nameEn": "Al-Inshiqaaq",
+    "nameTh": "อัล-อินชิกอก",
+    "meaningTh": "การฉีกแยกออก",
+    "revelationType": "Meccan",
+    "ayahCount": 25,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 589,
+    "endPage": 590,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 85,
+    "nameAr": "سُورَةُ البُرُوجِ",
+    "nameEn": "Al-Burooj",
+    "nameTh": "อัล-บุรูจญ์",
+    "meaningTh": "กลุ่มดาวราศี",
+    "revelationType": "Meccan",
+    "ayahCount": 22,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 590,
+    "endPage": 590,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 86,
+    "nameAr": "سُورَةُ الطَّارِقِ",
+    "nameEn": "At-Taariq",
+    "nameTh": "อัฏ-ฏอริก",
+    "meaningTh": "ดาวที่มาเยือนยามค่ำคืน",
+    "revelationType": "Meccan",
+    "ayahCount": 17,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 591,
+    "endPage": 591,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 87,
+    "nameAr": "سُورَةُ الأَعۡلَىٰ",
+    "nameEn": "Al-A'laa",
+    "nameTh": "อัล-อะอ์ลา",
+    "meaningTh": "ผู้ทรงสูงส่งยิ่ง",
+    "revelationType": "Meccan",
+    "ayahCount": 19,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 591,
+    "endPage": 592,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 88,
+    "nameAr": "سُورَةُ الغَاشِيَةِ",
+    "nameEn": "Al-Ghaashiya",
+    "nameTh": "อัล-ฆอชิยะฮ์",
+    "meaningTh": "เหตุการณ์อันปกคลุม",
+    "revelationType": "Meccan",
+    "ayahCount": 26,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 592,
+    "endPage": 593,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 89,
+    "nameAr": "سُورَةُ الفَجۡرِ",
+    "nameEn": "Al-Fajr",
+    "nameTh": "อัล-ฟัจญร์",
+    "meaningTh": "รุ่งอรุณ",
+    "revelationType": "Meccan",
+    "ayahCount": 30,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 593,
+    "endPage": 594,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 90,
+    "nameAr": "سُورَةُ البَلَدِ",
+    "nameEn": "Al-Balad",
+    "nameTh": "อัล-บะลัด",
+    "meaningTh": "เมือง",
+    "revelationType": "Meccan",
+    "ayahCount": 20,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 594,
+    "endPage": 595,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 91,
+    "nameAr": "سُورَةُ الشَّمۡسِ",
+    "nameEn": "Ash-Shams",
+    "nameTh": "อัช-ชัมส์",
+    "meaningTh": "ดวงอาทิตย์",
+    "revelationType": "Meccan",
+    "ayahCount": 15,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 595,
+    "endPage": 595,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 92,
+    "nameAr": "سُورَةُ اللَّيۡلِ",
+    "nameEn": "Al-Lail",
+    "nameTh": "อัล-ลัยล์",
+    "meaningTh": "กลางคืน",
+    "revelationType": "Meccan",
+    "ayahCount": 21,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 595,
+    "endPage": 596,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 93,
+    "nameAr": "سُورَةُ الضُّحَىٰ",
+    "nameEn": "Ad-Dhuhaa",
+    "nameTh": "อัฎ-ฎุหา",
+    "meaningTh": "ยามสาย",
+    "revelationType": "Meccan",
+    "ayahCount": 11,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 596,
+    "endPage": 596,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 94,
+    "nameAr": "سُورَةُ الشَّرۡحِ",
+    "nameEn": "Ash-Sharh",
+    "nameTh": "อัช-ชัรหฺ",
+    "meaningTh": "การเปิดอกให้กว้างขวาง",
+    "revelationType": "Meccan",
+    "ayahCount": 8,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 596,
+    "endPage": 597,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 95,
+    "nameAr": "سُورَةُ التِّينِ",
+    "nameEn": "At-Tin",
+    "nameTh": "อัต-ตีน",
+    "meaningTh": "มะเดื่อ",
+    "revelationType": "Meccan",
+    "ayahCount": 8,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 597,
+    "endPage": 597,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 96,
+    "nameAr": "سُورَةُ العَلَقِ",
+    "nameEn": "Al-Alaq",
+    "nameTh": "อัล-อะลัก",
+    "meaningTh": "ก้อนเลือด",
+    "revelationType": "Meccan",
+    "ayahCount": 19,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 597,
+    "endPage": 598,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 97,
+    "nameAr": "سُورَةُ القَدۡرِ",
+    "nameEn": "Al-Qadr",
+    "nameTh": "อัล-ก็อดร์",
+    "meaningTh": "คืนอันทรงเกียรติ",
+    "revelationType": "Meccan",
+    "ayahCount": 5,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 598,
+    "endPage": 598,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 98,
+    "nameAr": "سُورَةُ البَيِّنَةِ",
+    "nameEn": "Al-Bayyina",
+    "nameTh": "อัล-บัยยินะฮ์",
+    "meaningTh": "หลักฐานอันชัดแจ้ง",
+    "revelationType": "Medinan",
+    "ayahCount": 8,
+    "hasSheikhAbdallahAudio": false,
+    "sheikhTrackCount": 0,
+    "startPage": 598,
+    "endPage": 599,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 99,
+    "nameAr": "سُورَةُ الزَّلۡزَلَةِ",
+    "nameEn": "Az-Zalzala",
+    "nameTh": "อัซ-ซัลซะละฮ์",
+    "meaningTh": "แผ่นดินไหว",
+    "revelationType": "Medinan",
+    "ayahCount": 8,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 599,
+    "endPage": 599,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 100,
+    "nameAr": "سُورَةُ العَادِيَاتِ",
+    "nameEn": "Al-Aadiyaat",
+    "nameTh": "อัล-อาดิยาต",
+    "meaningTh": "ม้าศึกที่วิ่งห้อ",
+    "revelationType": "Meccan",
+    "ayahCount": 11,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 599,
+    "endPage": 600,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 101,
+    "nameAr": "سُورَةُ القَارِعَةِ",
+    "nameEn": "Al-Qaari'a",
+    "nameTh": "อัล-กอริอะฮ์",
+    "meaningTh": "วันกิยามะฮ์อันน่าสะพรึงกลัว",
+    "revelationType": "Meccan",
+    "ayahCount": 11,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 600,
+    "endPage": 600,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 102,
+    "nameAr": "سُورَةُ التَّكَاثُرِ",
+    "nameEn": "At-Takaathur",
+    "nameTh": "อัต-ตะกาษุร",
+    "meaningTh": "การแข่งขันสะสม",
+    "revelationType": "Meccan",
+    "ayahCount": 8,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 600,
+    "endPage": 600,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 103,
+    "nameAr": "سُورَةُ العَصۡرِ",
+    "nameEn": "Al-Asr",
+    "nameTh": "อัล-อัศร์",
+    "meaningTh": "กาลเวลา",
+    "revelationType": "Meccan",
+    "ayahCount": 3,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 601,
+    "endPage": 601,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 104,
+    "nameAr": "سُورَةُ الهُمَزَةِ",
+    "nameEn": "Al-Humaza",
+    "nameTh": "อัล-ฮุมะซะฮ์",
+    "meaningTh": "ผู้นินทาว่าร้าย",
+    "revelationType": "Meccan",
+    "ayahCount": 9,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 601,
+    "endPage": 601,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 105,
+    "nameAr": "سُورَةُ الفِيلِ",
+    "nameEn": "Al-Fil",
+    "nameTh": "อัล-ฟีล",
+    "meaningTh": "ช้าง",
+    "revelationType": "Meccan",
+    "ayahCount": 5,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 601,
+    "endPage": 601,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 106,
+    "nameAr": "سُورَةُ قُرَيۡشٍ",
+    "nameEn": "Quraish",
+    "nameTh": "กุร็อยช์",
+    "meaningTh": "เผ่ากุร็อยช์",
+    "revelationType": "Meccan",
+    "ayahCount": 4,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 602,
+    "endPage": 602,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 107,
+    "nameAr": "سُورَةُ المَاعُونِ",
+    "nameEn": "Al-Maa'un",
+    "nameTh": "อัล-มาอูน",
+    "meaningTh": "สิ่งของช่วยเหลือเล็กน้อย",
+    "revelationType": "Meccan",
+    "ayahCount": 7,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 602,
+    "endPage": 602,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 108,
+    "nameAr": "سُورَةُ الكَوۡثَرِ",
+    "nameEn": "Al-Kawthar",
+    "nameTh": "อัล-เกาษัร",
+    "meaningTh": "ความดีอันมากมาย / ธารเกาษัร",
+    "revelationType": "Meccan",
+    "ayahCount": 3,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 602,
+    "endPage": 602,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 109,
+    "nameAr": "سُورَةُ الكَافِرُونَ",
+    "nameEn": "Al-Kaafiroon",
+    "nameTh": "อัล-กาฟิรูน",
+    "meaningTh": "บรรดาผู้ปฏิเสธศรัทธา",
+    "revelationType": "Meccan",
+    "ayahCount": 6,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 2,
+    "startPage": 603,
+    "endPage": 603,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 110,
+    "nameAr": "سُورَةُ النَّصۡرِ",
+    "nameEn": "An-Nasr",
+    "nameTh": "อัน-นัศร์",
+    "meaningTh": "ความช่วยเหลือ",
+    "revelationType": "Medinan",
+    "ayahCount": 3,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 603,
+    "endPage": 603,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 111,
+    "nameAr": "سُورَةُ المَسَدِ",
+    "nameEn": "Al-Masad",
+    "nameTh": "อัล-มะซัด",
+    "meaningTh": "เชือกป่าน",
+    "revelationType": "Meccan",
+    "ayahCount": 5,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 603,
+    "endPage": 603,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 112,
+    "nameAr": "سُورَةُ الإِخۡلَاصِ",
+    "nameEn": "Al-Ikhlaas",
+    "nameTh": "อัล-อิคลาศ",
+    "meaningTh": "ความบริสุทธิ์ใจต่อเอกภาพ",
+    "revelationType": "Meccan",
+    "ayahCount": 4,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 604,
+    "endPage": 604,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 113,
+    "nameAr": "سُورَةُ الفَلَقِ",
+    "nameEn": "Al-Falaq",
+    "nameTh": "อัล-ฟะลัก",
+    "meaningTh": "รุ่งอรุณ",
+    "revelationType": "Meccan",
+    "ayahCount": 5,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 604,
+    "endPage": 604,
+    "juzList": [
+      30
+    ]
+  },
+  {
+    "number": 114,
+    "nameAr": "سُورَةُ النَّاسِ",
+    "nameEn": "An-Naas",
+    "nameTh": "อัน-นาส",
+    "meaningTh": "มนุษยชาติ",
+    "revelationType": "Meccan",
+    "ayahCount": 6,
+    "hasSheikhAbdallahAudio": true,
+    "sheikhTrackCount": 1,
+    "startPage": 604,
+    "endPage": 604,
+    "juzList": [
+      30
+    ]
+  }
+]

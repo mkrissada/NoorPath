@@ -1,0 +1,58 @@
+{
+  "reciters": [
+    {
+      "id": "sheikh-abdallah-humeid",
+      "nameTh": "เชค อับดุลลอฮ์ ฮุมัยด์ อัล-หัฎเราะมีย์",
+      "nameEn": "Sheikh Abdallah Humeid Al-Hadhramiy",
+      "styleTh": "เสียงอ่านรายซูเราะฮ์ (มี 91 จาก 114 ซูเราะฮ์)",
+      "mode": "surah-tracks",
+      "manifestUrl": "./data/audio/sheikh-abdallah-humeid.json",
+      "isPartial": true
+    },
+    {
+      "id": "alafasy",
+      "nameTh": "เชค มิชารี รอชิด อัล-อะฟาซีย์",
+      "nameEn": "Mishary Rashid Alafasy",
+      "styleTh": "มุรัตตัลรายอายะฮ์ (128 kbps)",
+      "mode": "ayah",
+      "baseUrl": "https://everyayah.com/data/Alafasy_128kbps",
+      "isPartial": false
+    },
+    {
+      "id": "husary",
+      "nameTh": "เชค มะหฺมูด เคาะลีล อัล-หุศ็อรีย์",
+      "nameEn": "Mahmoud Khalil Al-Husary",
+      "styleTh": "มุรัตตัลช้าชัด เหมาะสำหรับท่องจำ",
+      "mode": "ayah",
+      "baseUrl": "https://everyayah.com/data/Husary_128kbps",
+      "isPartial": false
+    },
+    {
+      "id": "yasser-dawsari",
+      "nameTh": "เชค ยาซิร อัด-เดาซะรีย์",
+      "nameEn": "Sheikh Yasir al-Dawsari",
+      "styleTh": "มุรัตตัลรายอายะฮ์ (128 kbps)",
+      "mode": "ayah",
+      "baseUrl": "https://everyayah.com/data/Yasser_Ad-Dussary_128kbps",
+      "isPartial": false
+    },
+    {
+      "id": "abdulrahman-al-ossi",
+      "nameTh": "เชค อับดุรเราะห์มาน อัล-เอาซีย์",
+      "nameEn": "Sheikh Abdulrahman Al-Ossi",
+      "styleTh": "เสียงอ่านรายซูเราะฮ์ (MP3Quran ครบ 114 ซูเราะฮ์)",
+      "mode": "surah",
+      "baseUrl": "https://cdn.mp3quran.net/audio/abdulrahman-oosi/r1",
+      "isPartial": false
+    },
+    {
+      "id": "raad-al-kurdi",
+      "nameTh": "เชค เราะอ์ด อัล-กุรดี",
+      "nameEn": "Sheikh Raad Al-Kurdi",
+      "styleTh": "เสียงอ่านรายซูเราะฮ์ (MP3Quran ครบ 114 ซูเราะฮ์)",
+      "mode": "surah",
+      "baseUrl": "https://cdn.mp3quran.net/audio/raad-kurdi/r1",
+      "isPartial": false
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+:root,
+html[data-theme="parchment"] {
+  --bg-app: #f7f1e3;
+  --bg-surface: #fbf7ee;
+  --bg-elevated: #ffffff;
+  --bg-subtle: #efe6d2;
+  --bg-chip: #e7dcc4;
+  --text-primary: #201c16;
+  --text-secondary: #5c5346;
+  --text-muted: #847968;
+  --border-color: #dfd4bd;
+  --accent: #0f6b53;
+  --accent-hover: #0b5340;
+  --accent-soft: #dff1ea;
+  --accent-text: #0b5340;
+  --gold: #b48428;
+  --gold-soft: #f6ebd2;
+  --danger: #b53d3d;
+  --danger-soft: #fae5e5;
+  --shadow-card: 0 2px 10px rgba(48, 36, 18, 0.06);
+  color-scheme: light;
+}
+
+html[data-theme="light"] {
+  --bg-app: #f4f6f8;
+  --bg-surface: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-subtle: #eef2f5;
+  --bg-chip: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border-color: #dbe3ec;
+  --accent: #0d7057;
+  --accent-hover: #095844;
+  --accent-soft: #e0f4ee;
+  --accent-text: #095844;
+  --gold: #a37416;
+  --gold-soft: #fef3c7;
+  --danger: #dc2626;
+  --danger-soft: #fee2e2;
+  --shadow-card: 0 2px 10px rgba(15, 23, 42, 0.05);
+  color-scheme: light;
+}
+
+html[data-theme="night"] {
+  --bg-app: #0d131a;
+  --bg-surface: #141d26;
+  --bg-elevated: #192430;
+  --bg-subtle: #1d2a38;
+  --bg-chip: #253546;
+  --text-primary: #edf2f7;
+  --text-secondary: #b8c4d2;
+  --text-muted: #8395a8;
+  --border-color: #273748;
+  --accent: #27b38a;
+  --accent-hover: #35c79c;
+  --accent-soft: rgba(39, 179, 138, 0.16);
+  --accent-text: #6de2bf;
+  --gold: #e0b254;
+  --gold-soft: rgba(224, 178, 84, 0.16);
+  --danger: #f87171;
+  --danger-soft: rgba(248, 113, 113, 0.16);
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.35);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: "Sarabun", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overscroll-behavior-y: contain;
+}
+
+.font-arabic {
+  font-family: "UthmanicHafs", "Amiri", "Traditional Arabic", serif;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  line-height: 2.05;
+  letter-spacing: 0;
+}
+
+.font-hadith {
+  font-family: "Kitab", "Amiri", "Traditional Arabic", serif;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  line-height: 2.05;
+  letter-spacing: 0;
+}
+
+.font-thai {
+  font-family: "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.75;
+}
+
+.safe-bottom {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+.safe-top {
+  padding-top: max(0.5rem, env(safe-area-inset-top));
+}
+
+/* Custom subtle scrollbars for iPad / desktop */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 9999px;
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 1.6s ease-in-out infinite;
+}
