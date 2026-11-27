@@ -1,0 +1,42 @@
+name: Deploy dist to GitHub Pages
+
+on:
+  # รันอัตโนมัติเมื่อ push ขึ้น branch main
+  push:
+    branches: ["main"]
+  # เปิดให้กดรันเองได้จากแท็บ Actions บนหน้าเว็บ GitHub
+  workflow_dispatch:
+
+# สิทธิ์ที่จำเป็นสำหรับการส่งไฟล์ขึ้น GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# ป้องกันการ deploy ซ้อนทับกันหากกด push ถี่ๆ
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dist artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # ระบุโฟลเดอร์ที่จะนำขึ้น GitHub Pages
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
