@@ -3,3 +3,4 @@ dist
 tsconfig.tsbuildinfo
 scripts/__pycache__/
 scripts/.cache/
+public/audio/

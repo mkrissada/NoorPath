@@ -166,15 +166,13 @@ export function AthkarView() {
     [counts]
   );
 
-  const handleDecrement = useCallback(
-    (category: AthkarCategory, itemId: number, defaultRepeat: number) => {
+  const handleCompleteItem = useCallback(
+    (category: AthkarCategory, itemId: number) => {
       const key = itemKey(category.id, itemId);
-      const current =
-        typeof counts[key] === 'number' ? counts[key] : defaultRepeat;
-      if (current <= 0) return;
+      const current = counts[key];
+      if (current === 0) return;
 
-      const nextRemaining = current - 1;
-      const nextCounts = { ...counts, [key]: nextRemaining };
+      const nextCounts = { ...counts, [key]: 0 };
       setCounts(nextCounts);
 
       const allCompleted = category.items.every((it) => {
@@ -185,7 +183,7 @@ export function AthkarView() {
       });
 
       setStats((prev) =>
-        recordAthkarTap(prev, category, itemId, nextRemaining, allCompleted)
+        recordAthkarTap(prev, category, itemId, 0, allCompleted)
       );
     },
     [counts]
@@ -593,18 +591,16 @@ export function AthkarView() {
                 </div>
               ) : (
                 <div
-                  onClick={() =>
-                    handleDecrement(activeCategory, item.id, item.repeat)
-                  }
+                  onClick={() => handleCompleteItem(activeCategory, item.id)}
                   role="button"
                   tabIndex={0}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                       e.preventDefault();
-                      handleDecrement(activeCategory, item.id, item.repeat);
+                      handleCompleteItem(activeCategory, item.id);
                     }
                   }}
-                  aria-label={`แตะเพื่อนับ ${item.title_th || 'บทอัซการ'} เหลือ ${remaining} ครั้ง`}
+                  aria-label={`บันทึกว่าอ่าน ${item.title_th || 'บทอัซการ'} แล้ว (${item.repeat} ครั้ง)`}
                   className="mt-3 cursor-pointer select-none rounded-xl bg-[var(--bg-elevated)]/60 p-3.5 sm:p-4 transition-colors active:bg-[var(--bg-subtle)]"
                 >
                   <p
@@ -660,14 +656,12 @@ export function AthkarView() {
                   {item.reference && <p>{item.reference}</p>}
                 </div>
 
-                {/* Touch-friendly Tap-to-Count Button */}
+                {/* Single-tap Checkmark Button */}
                 <button
                   type="button"
-                  onClick={() =>
-                    handleDecrement(activeCategory, item.id, item.repeat)
-                  }
+                  onClick={() => handleCompleteItem(activeCategory, item.id)}
                   disabled={isDone}
-                  className={`flex min-h-[52px] min-w-[136px] shrink-0 items-center justify-center gap-2.5 rounded-2xl px-5 py-2.5 text-sm font-bold transition-all active:scale-95 ${
+                  className={`flex min-h-[52px] min-w-[152px] shrink-0 items-center justify-center gap-2 rounded-2xl px-5 py-2.5 text-sm font-bold transition-all active:scale-95 ${
                     isDone
                       ? 'cursor-default border border-[var(--accent)]/40 bg-[var(--accent-soft)] text-[var(--accent-text)]'
                       : 'bg-[var(--accent)] text-white shadow-sm hover:bg-[var(--accent-hover)]'
@@ -675,17 +669,13 @@ export function AthkarView() {
                 >
                   {isDone ? (
                     <>
-                      <Check className="h-5 w-5" />
-                      <span>ครบ {item.repeat} ครั้ง</span>
+                      <CheckCircle2 className="h-5 w-5" />
+                      <span>บันทึกแล้ว ({item.repeat}x)</span>
                     </>
                   ) : (
                     <>
-                      <span className="text-xl tabular-nums leading-none">
-                        {remaining}
-                      </span>
-                      <span className="text-xs font-medium opacity-85">
-                        / {item.repeat} ครั้ง
-                      </span>
+                      <Check className="h-5 w-5" />
+                      <span>อ่านแล้ว ({item.repeat} ครั้ง)</span>
                     </>
                   )}
                 </button>

@@ -4,14 +4,16 @@ import {
   Brain,
   Headphones,
   LayoutDashboard,
+  Menu,
   Moon,
   ScrollText,
   Settings,
   Sparkles,
   Sun,
   SwatchBook,
+  X,
 } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
 import { useApp } from '../../context/AppContext';
 import type { AppTab, ThemeMode } from '../../types/models';
 import { AudioDock } from './AudioDock';
@@ -21,16 +23,20 @@ const NAV_ITEMS: Array<{
   label: string;
   shortLabel: string;
   icon: React.ComponentType<{ className?: string }>;
+  mobilePrimary?: boolean;
 }> = [
   { id: 'dashboard', label: 'ภาพรวม & สถิติ', shortLabel: 'สถิติ', icon: LayoutDashboard },
-  { id: 'reader', label: 'อัลกุรอาน', shortLabel: 'คำแปล', icon: BookOpen },
-  { id: 'mushaf', label: 'มุศฮัฟ (อาหรับ)', shortLabel: 'มุศฮัฟ', icon: BookText },
-  { id: 'hifz', label: 'โหมดท่องจำ', shortLabel: 'ท่องจำ', icon: Brain },
-  { id: 'audio', label: 'เสียงอ่าน', shortLabel: 'เสียง', icon: Headphones },
+  { id: 'reader', label: 'อัลกุรอาน', shortLabel: 'คำแปล', icon: BookOpen, mobilePrimary: true },
+  { id: 'mushaf', label: 'มุศฮัฟ (อาหรับ)', shortLabel: 'มุศฮัฟ', icon: BookText, mobilePrimary: true },
+  { id: 'hifz', label: 'โหมดท่องจำ', shortLabel: 'ท่องจำ', icon: Brain, mobilePrimary: true },
+  { id: 'audio', label: 'เสียงอ่าน', shortLabel: 'เสียง', icon: Headphones, mobilePrimary: true },
   { id: 'hadith', label: 'ฮะดีษ', shortLabel: 'ฮะดีษ', icon: ScrollText },
   { id: 'athkar', label: 'อัซการ (Athkar)', shortLabel: 'อัซการ', icon: Sparkles },
   { id: 'settings', label: 'ตั้งค่า & Offline', shortLabel: 'ตั้งค่า', icon: Settings },
 ];
+
+const MOBILE_PRIMARY_ITEMS = NAV_ITEMS.filter((item) => item.mobilePrimary);
+const MOBILE_MORE_ITEMS = NAV_ITEMS.filter((item) => !item.mobilePrimary);
 
 const THEME_OPTIONS: Array<{
   id: ThemeMode;
@@ -44,6 +50,13 @@ const THEME_OPTIONS: Array<{
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const { activeTab, setActiveTab, settings, updateSettings } = useApp();
+  const [moreMenuOpen, setMoreMenuOpen] = useState(false);
+  const isMoreTabActive = MOBILE_MORE_ITEMS.some((item) => item.id === activeTab);
+
+  const selectTab = (tab: AppTab) => {
+    setActiveTab(tab);
+    setMoreMenuOpen(false);
+  };
 
   const adjustArabicSize = (delta: number) => {
     const next = Math.max(20, Math.min(48, settings.arabicFontSize + delta));
@@ -105,38 +118,38 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       {/* Main Content Area */}
       <div className="flex min-w-0 flex-1 flex-col overflow-hidden">
         {/* Top Bar */}
-        <header className="safe-top flex shrink-0 items-center justify-between gap-3 border-b border-[var(--border-color)] bg-[var(--bg-surface)] px-3 sm:px-5 py-2.5">
-          <div className="flex items-center gap-2.5 min-w-0">
+        <header className="safe-top flex shrink-0 items-center justify-between gap-2 sm:gap-3 border-b border-[var(--border-color)] bg-[var(--bg-surface)] px-2.5 sm:px-5 py-2 sm:py-2.5">
+          <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
             <img
               src="./icons/icon.svg"
               alt="NoorPath"
-              className="h-8 w-8 rounded-lg md:hidden"
+              className="h-8 w-8 shrink-0 rounded-lg md:hidden"
             />
             <div className="min-w-0">
-              <h1 className="truncate text-base sm:text-lg font-bold text-[var(--text-primary)]">
+              <h1 className="truncate text-sm sm:text-lg font-bold text-[var(--text-primary)]">
                 {NAV_ITEMS.find((i) => i.id === activeTab)?.label ?? 'NoorPath'}
               </h1>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
             {/* Quick Arabic font stepper */}
-            <div className="hidden sm:flex items-center rounded-xl border border-[var(--border-color)] bg-[var(--bg-elevated)] p-0.5 text-xs">
+            <div className="flex items-center rounded-xl border border-[var(--border-color)] bg-[var(--bg-elevated)] p-0.5 text-xs">
               <button
                 type="button"
                 onClick={() => adjustArabicSize(-2)}
-                className="min-h-[34px] px-2.5 font-semibold text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+                className="min-h-[34px] px-2 sm:px-2.5 font-semibold text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 title="ลดขนาดตัวอักษรอาหรับ"
               >
                 ع-
               </button>
-              <span className="px-1.5 text-[11px] tabular-nums text-[var(--text-muted)]">
+              <span className="px-1 sm:px-1.5 text-[11px] tabular-nums text-[var(--text-muted)]">
                 {settings.arabicFontSize}
               </span>
               <button
                 type="button"
                 onClick={() => adjustArabicSize(2)}
-                className="min-h-[34px] px-2.5 font-semibold text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+                className="min-h-[34px] px-2 sm:px-2.5 font-semibold text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
                 title="เพิ่มขนาดตัวอักษรอาหรับ"
               >
                 ع+
@@ -157,7 +170,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                     key={opt.id}
                     type="button"
                     onClick={() => updateSettings({ theme: opt.id })}
-                    className={`flex min-h-[34px] items-center gap-1 rounded-lg px-2.5 text-xs font-medium transition-colors ${
+                    className={`flex min-h-[34px] items-center gap-1 rounded-lg px-2 sm:px-2.5 text-xs font-medium transition-colors ${
                       selected
                         ? 'bg-[var(--accent-soft)] text-[var(--accent-text)]'
                         : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
@@ -179,28 +192,86 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         {/* Persistent Audio Player */}
         <AudioDock />
 
+        {/* Mobile "More" Drawer Sheet */}
+        {moreMenuOpen && (
+          <div className="fixed inset-0 z-40 flex flex-col justify-end md:hidden">
+            <button
+              type="button"
+              aria-label="ปิดเมนูเพิ่มเติม"
+              onClick={() => setMoreMenuOpen(false)}
+              className="absolute inset-0 bg-black/40 backdrop-blur-[1px]"
+            />
+            <div className="relative z-10 rounded-t-2xl border-t border-[var(--border-color)] bg-[var(--bg-surface)] px-4 pb-[calc(4.5rem+env(safe-area-inset-bottom))] pt-3 shadow-2xl">
+              <div className="mb-3 flex items-center justify-between">
+                <span className="text-sm font-bold text-[var(--text-primary)]">เมนูเพิ่มเติม</span>
+                <button
+                  type="button"
+                  onClick={() => setMoreMenuOpen(false)}
+                  className="flex h-8 w-8 items-center justify-center rounded-lg text-[var(--text-muted)] hover:bg-[var(--bg-subtle)] hover:text-[var(--text-primary)]"
+                  aria-label="ปิด"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              </div>
+              <div className="grid grid-cols-2 gap-2.5">
+                {MOBILE_MORE_ITEMS.map((item) => {
+                  const Icon = item.icon;
+                  const active = activeTab === item.id;
+                  return (
+                    <button
+                      key={item.id}
+                      type="button"
+                      onClick={() => selectTab(item.id)}
+                      className={`flex min-h-[52px] items-center gap-3 rounded-xl border px-3.5 py-2.5 text-left text-sm font-medium transition-colors ${
+                        active
+                          ? 'border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent-text)]'
+                          : 'border-[var(--border-color)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] hover:bg-[var(--bg-subtle)]'
+                      }`}
+                    >
+                      <Icon className="h-5 w-5 shrink-0" />
+                      <span className="truncate">{item.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Mobile Bottom Tab Bar */}
         <nav
-          className="safe-bottom flex shrink-0 items-center justify-around border-t border-[var(--border-color)] bg-[var(--bg-surface)] px-0.5 pt-1 md:hidden"
+          className="safe-bottom relative z-50 flex shrink-0 items-center justify-around border-t border-[var(--border-color)] bg-[var(--bg-surface)] px-1 pt-1 md:hidden"
           aria-label="เมนูหลักมือถือ"
         >
-          {NAV_ITEMS.map((item) => {
+          {MOBILE_PRIMARY_ITEMS.map((item) => {
             const Icon = item.icon;
-            const active = activeTab === item.id;
+            const active = activeTab === item.id && !moreMenuOpen;
             return (
               <button
                 key={item.id}
                 type="button"
-                onClick={() => setActiveTab(item.id)}
-                className={`flex min-h-[48px] min-w-0 flex-1 flex-col items-center justify-center gap-0.5 rounded-xl px-0.5 py-1 text-[10px] font-medium ${
+                onClick={() => selectTab(item.id)}
+                className={`flex min-h-[52px] min-w-0 flex-1 flex-col items-center justify-center gap-1 rounded-xl px-1 py-1 text-[11px] font-medium ${
                   active ? 'text-[var(--accent)]' : 'text-[var(--text-muted)]'
                 }`}
               >
-                <Icon className="h-4 w-4 sm:h-5 sm:w-5" />
+                <Icon className="h-5 w-5" />
                 <span className="max-w-full truncate">{item.shortLabel}</span>
               </button>
             );
           })}
+
+          <button
+            type="button"
+            onClick={() => setMoreMenuOpen((prev) => !prev)}
+            aria-expanded={moreMenuOpen}
+            className={`flex min-h-[52px] min-w-0 flex-1 flex-col items-center justify-center gap-1 rounded-xl px-1 py-1 text-[11px] font-medium ${
+              moreMenuOpen || isMoreTabActive ? 'text-[var(--accent)]' : 'text-[var(--text-muted)]'
+            }`}
+          >
+            <Menu className="h-5 w-5" />
+            <span className="max-w-full truncate">เพิ่มเติม</span>
+          </button>
         </nav>
       </div>
     </div>
